@@ -1,3 +1,3 @@
 # api
 
-http://tradelinetr.com/api/Output.json
+https://tradelinetr.com/api/Output.json
