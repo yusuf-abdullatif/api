@@ -5,14 +5,17 @@
         "username": "john_doe",
         "password": "password123",
         "labGroup": 1,
-        "university": "JTH"
+        "university": "JTH",
+        "isAdmin": false
       },
       {
         "id": 2,
         "username": "jane_smith",
         "password": "securepass",
         "labGroup": 2,
-        "university": "University of XYZ"
+        "university": "University of XYZ",
+        "isAdmin": false
+
       },
       {
         "id": 3,
@@ -35,7 +38,8 @@
         "roomId": 102,
         "queue": [
           {"userId": 3, "labGroup": 3},
-          {"userId": 1, "labGroup": 1}
+          {"userId": 1, "labGroup": 1},
+          {"userId": 2, "labGroup": 2}
         ]
     }
     ]
