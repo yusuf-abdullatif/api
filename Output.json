@@ -4,6 +4,7 @@
         "id": 1,
         "username": "john_doe",
         "password": "password123",
+        "name": "John Doe",
         "labGroup": 1,
         "university": "JTH",
         "isAdmin": false
@@ -12,6 +13,7 @@
         "id": 2,
         "username": "jane_smith",
         "password": "securepass",
+        "name": "Jane Smith",
         "labGroup": 2,
         "university": "University of XYZ",
         "isAdmin": false
@@ -21,6 +23,7 @@
         "id": 3,
         "username": "admin_user",
         "password": "adminpass",
+        "name": "Admin User",
         "labGroup": 3,
         "university": "University of XYZ",
         "isAdmin": true
