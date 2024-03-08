@@ -53,7 +53,16 @@
           "labGroup": 3,
           "university": "University of XYZ",
           "isAdmin": false
-      }
+      },
+      {
+        "id": 7,
+        "username": "Test",
+        "password": "123",
+        "name": "Test Student",
+        "labGroup": 3,
+        "university": "University of XYZ",
+        "isAdmin": false
+    }
   ],
   "rooms": [
       {
