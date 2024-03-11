@@ -61,37 +61,66 @@
             "isInQueue": false
         },
         {
-          "id": 7,
-          "username": "Test",
-          "password": "123",
-          "name": "Test Student",
-          "labGroup": 3,
-          "university": "University of XYZ",
-          "isAdmin": false,
-          "isInQueue": false
+            "id": 7,
+            "username": "Test",
+            "password": "123",
+            "name": "Test Student",
+            "labGroup": 3,
+            "university": "University of XYZ",
+            "isAdmin": false,
+            "isInQueue": false
         }
     ],
     "rooms": [
         {
             "roomId": 101,
             "queue": [
-                {"userId": 1, "labGroup": 1},
-                {"userId": 2, "labGroup": 2},
-                {"userId": 4, "labGroup": 1},
-                {"userId": 5, "labGroup": 2}
+                {
+                    "userId": 1,
+                    "labGroup": 1
+                },
+                {
+                    "userId": 2,
+                    "labGroup": 2
+                },
+                {
+                    "userId": 4,
+                    "labGroup": 1
+                },
+                {
+                    "userId": 5,
+                    "labGroup": 2
+                }
             ]
         },
         {
             "roomId": 102,
             "queue": [
-                {"userId": 1, "labGroup": 1},
-                {"userId": 2, "labGroup": 2},
-                {"userId": 3, "labGroup": 3},
-                {"userId": 4, "labGroup": 1},
-                {"userId": 5, "labGroup": 2},
-                {"userId": 6, "labGroup": 3}
+                {
+                    "userId": 1,
+                    "labGroup": 1
+                },
+                {
+                    "userId": 2,
+                    "labGroup": 2
+                },
+                {
+                    "userId": 3,
+                    "labGroup": 3
+                },
+                {
+                    "userId": 4,
+                    "labGroup": 1
+                },
+                {
+                    "userId": 5,
+                    "labGroup": 2
+                },
+                {
+                    "userId": 6,
+                    "labGroup": 3
+                }
             ]
         }
     ]
-  }
-  
+}
