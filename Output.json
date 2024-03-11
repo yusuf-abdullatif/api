@@ -1,89 +1,97 @@
 {
-  "users": [
-      {
-          "id": 1,
-          "username": "john_doe",
-          "password": "password123",
-          "name": "John Doe",
-          "labGroup": 1,
-          "university": "JTH",
-          "isAdmin": false
-      },
-      {
-          "id": 2,
-          "username": "jane_smith",
-          "password": "securepass",
-          "name": "Jane Smith",
-          "labGroup": 2,
-          "university": "University of XYZ",
-          "isAdmin": false
-      },
-      {
-          "id": 3,
-          "username": "admin_user",
-          "password": "adminpass",
-          "name": "Admin User",
+    "users": [
+        {
+            "id": 1,
+            "username": "john_doe",
+            "password": "password123",
+            "name": "John Doe",
+            "labGroup": 1,
+            "university": "JTH",
+            "isAdmin": false,
+            "isInQueue": false
+        },
+        {
+            "id": 2,
+            "username": "jane_smith",
+            "password": "securepass",
+            "name": "Jane Smith",
+            "labGroup": 2,
+            "university": "University of XYZ",
+            "isAdmin": false,
+            "isInQueue": false
+        },
+        {
+            "id": 3,
+            "username": "admin_user",
+            "password": "adminpass",
+            "name": "Admin User",
+            "labGroup": 3,
+            "university": "University of XYZ",
+            "isAdmin": true,
+            "isInQueue": false
+        },
+        {
+            "id": 4,
+            "username": "bob_student",
+            "password": "studentpass",
+            "name": "Bob Student",
+            "labGroup": 1,
+            "university": "JTH",
+            "isAdmin": false,
+            "isInQueue": false
+        },
+        {
+            "id": 5,
+            "username": "alice_student",
+            "password": "studentpass",
+            "name": "Alice Student",
+            "labGroup": 2,
+            "university": "University of XYZ",
+            "isAdmin": false,
+            "isInQueue": false
+        },
+        {
+            "id": 6,
+            "username": "charlie_student",
+            "password": "studentpass",
+            "name": "Charlie Student",
+            "labGroup": 3,
+            "university": "University of XYZ",
+            "isAdmin": false,
+            "isInQueue": false
+        },
+        {
+          "id": 7,
+          "username": "Test",
+          "password": "123",
+          "name": "Test Student",
           "labGroup": 3,
           "university": "University of XYZ",
-          "isAdmin": true
-      },
-      {
-          "id": 4,
-          "username": "bob_student",
-          "password": "studentpass",
-          "name": "Bob Student",
-          "labGroup": 1,
-          "university": "JTH",
-          "isAdmin": false
-      },
-      {
-          "id": 5,
-          "username": "alice_student",
-          "password": "studentpass",
-          "name": "Alice Student",
-          "labGroup": 2,
-          "university": "University of XYZ",
-          "isAdmin": false
-      },
-      {
-          "id": 6,
-          "username": "charlie_student",
-          "password": "studentpass",
-          "name": "Charlie Student",
-          "labGroup": 3,
-          "university": "University of XYZ",
-          "isAdmin": false
-      },
-      {
-        "id": 7,
-        "username": "Test",
-        "password": "123",
-        "name": "Test Student",
-        "labGroup": 3,
-        "university": "University of XYZ",
-        "isAdmin": false
-    }
-  ],
-  "rooms": [
-      {
-          "roomId": 101,
-          "queue": [
-              {"userId": 1, "labGroup": 1},
-              {"userId": 2, "labGroup": 2},
-              {"userId": 4, "labGroup": 1},
-              {"userId": 5, "labGroup": 2}
-          ]
-      },
-      {
-          "roomId": 102,
-          "queue": [
-              {"userId": 1, "labGroup": 1},
-              {"userId": 2, "labGroup": 2},
-              {"userId": 3, "labGroup": 3},
-              {"userId": 4, "labGroup": 1},
-              {"userId": 5, "labGroup": 2},
-              {"userId": 6, "labGroup": 3}
-          ]
-      }
-  ]
-}
+          "isAdmin": false,
+          "isInQueue": false
+        }
+    ],
+    "rooms": [
+        {
+            "roomId": 101,
+            "queue": [
+                {"userId": 1, "labGroup": 1},
+                {"userId": 2, "labGroup": 2},
+                {"userId": 4, "labGroup": 1},
+                {"userId": 5, "labGroup": 2}
+            ]
+        },
+        {
+            "roomId": 102,
+            "queue": [
+                {"userId": 1, "labGroup": 1},
+                {"userId": 2, "labGroup": 2},
+                {"userId": 3, "labGroup": 3},
+                {"userId": 4, "labGroup": 1},
+                {"userId": 5, "labGroup": 2},
+                {"userId": 6, "labGroup": 3}
+            ]
+        }
+    ]
+  }
+  
