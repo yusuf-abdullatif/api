@@ -31,7 +31,8 @@
             "labGroup": 3,
             "university": "University of XYZ",
             "isAdmin": true,
-            "isInQueue": false
+            "isInQueue": false,
+            "isMarkedDone": false
         },
         {
             "id": 4,
