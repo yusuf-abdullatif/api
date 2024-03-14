@@ -2,9 +2,9 @@
     "users": [
         {
             "id": 1,
-            "username": "john_doe",
-            "password": "password123",
-            "name": "John Doe",
+            "username": "Melissa",
+            "password": "123",
+            "name": "Melissa Melin",
             "labGroup": 1,
             "university": "JTH",
             "isAdmin": false,
@@ -13,9 +13,9 @@
         },
         {
             "id": 2,
-            "username": "jane_smith",
-            "password": "securepass",
-            "name": "Jane Smith",
+            "username": "Yusuf",
+            "password": "123",
+            "name": "Yusuf Abdullatif",
             "labGroup": 2,
             "university": "University of XYZ",
             "isAdmin": false,
@@ -23,9 +23,9 @@
         },
         {
             "id": 3,
-            "username": "admin_user",
+            "username": "Garrit",
             "password": "adminpass",
-            "name": "Admin User",
+            "name": "Garrit Schaap",
             "labGroup": 3,
             "university": "University of XYZ",
             "isAdmin": true,
@@ -34,7 +34,7 @@
         {
             "id": 4,
             "username": "bob_student",
-            "password": "studentpass",
+            "password": "123",
             "name": "Bob Student",
             "labGroup": 1,
             "university": "JTH",
@@ -44,7 +44,7 @@
         {
             "id": 5,
             "username": "alice_student",
-            "password": "studentpass",
+            "password": "123",
             "name": "Alice Student",
             "labGroup": 2,
             "university": "University of XYZ",
@@ -54,7 +54,7 @@
         {
             "id": 6,
             "username": "charlie_student",
-            "password": "studentpass",
+            "password": "123",
             "name": "Charlie Student",
             "labGroup": 3,
             "university": "University of XYZ",
@@ -77,10 +77,6 @@
             "roomId": 101,
             "queue": [
                 {
-                    "userId": 1,
-                    "labGroup": 1
-                },
-                {
                     "userId": 2,
                     "labGroup": 2
                 },
@@ -97,10 +93,6 @@
         {
             "roomId": 102,
             "queue": [
-                {
-                    "userId": 1,
-                    "labGroup": 1
-                },
                 {
                     "userId": 2,
                     "labGroup": 2
